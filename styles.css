@@ -1142,6 +1142,12 @@
     font-size: var(--text-xs);
     line-height: var(--tw-leading, var(--text-xs--line-height));
   }
+  .selection\:bg-\[\#F26101\] ::selection {
+    background-color: #F26101;
+  }
+  .selection\:bg-\[\#F26101\]::selection {
+    background-color: #F26101;
+  }
   .selection\:bg-\[\#FFFF00\] ::selection {
     background-color: #FFFF00;
   }
@@ -1165,6 +1171,12 @@
   }
   .selection\:text-\[\#304269\]::selection {
     color: #304269;
+  }
+  .selection\:text-white ::selection {
+    color: var(--color-white);
+  }
+  .selection\:text-white::selection {
+    color: var(--color-white);
   }
   @media (hover: hover) {
     .hover\:border-blue-500:hover {
