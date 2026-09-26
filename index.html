@@ -50,12 +50,25 @@
             <div class="flex-shrink-0 flex items-center">
                 <img src="img/mouselab.png" alt="MouseLab.dev" class="h-8 object-contain filter brightness-0 invert opacity-90">
             </div>
+            
+            <!-- Desktop Nav -->
             <nav class="hidden md:flex space-x-12 items-center">
                 <a href="#estudio" class="text-xs uppercase tracking-[0.15em] hover-line pb-1 font-medium">El Lab</a>
                 <a href="#divisiones" class="text-xs uppercase tracking-[0.15em] hover-line pb-1 font-medium">Plataformas</a>
                 <a href="#infraestructura" class="text-xs uppercase tracking-[0.15em] hover-line pb-1 font-medium">Stack Tecnológico</a>
                 <a href="#contacto" class="text-xs uppercase tracking-[0.15em] font-bold border border-white px-6 py-2 rounded-full hover:bg-white hover:text-[#304269] transition-colors duration-500">Contacto</a>
-            </nav>
+            </nav>    <!-- Mobile Menu Button (Only visible on small screens) -->
+            <button id="mobile-menu-btn" class="md:hidden text-white focus:outline-none">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+        
+        <!-- Mobile Dropdown -->
+        <div id="mobile-menu" class="hidden md:hidden absolute top-full left-0 w-full bg-[#304269] shadow-lg border-t border-white/10 flex flex-col p-6 space-y-6">
+            <a href="#estudio" class="text-sm uppercase tracking-[0.15em] font-medium text-white hover:text-[#F26101]">El Lab</a>
+            <a href="#divisiones" class="text-sm uppercase tracking-[0.15em] font-medium text-white hover:text-[#F26101]">Plataformas</a>
+            <a href="#infraestructura" class="text-sm uppercase tracking-[0.15em] font-medium text-white hover:text-[#F26101]">Stack Tecnológico</a>
+            <a href="#contacto" class="text-sm uppercase tracking-[0.15em] font-bold border border-[#F26101] text-[#F26101] px-6 py-3 rounded-full text-center hover:bg-[#F26101] hover:text-white transition-colors duration-500">Contacto</a>
         </div>
     </header>
     <!-- 1. Hero Section (Card over Background) -->
@@ -277,7 +290,7 @@
                         </div>
                     </div>
                     
-                                        <form action="#" method="POST" class="space-y-8 bg-[#D9E8F5] p-12 md:p-20 rounded-[3rem] shadow-[0_10px_40px_-15px_rgba(0,0,0,0.03)] border border-gray-100" data-aos="fade-up" data-aos-delay="200">
+                                        <form action="#" method="POST" class="space-y-8 bg-[#D9E8F5] p-6 md:p-20 rounded-[3rem] shadow-[0_10px_40px_-15px_rgba(0,0,0,0.03)] border border-gray-100" data-aos="fade-up" data-aos-delay="200">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div class="flex flex-col">
                         <label for="empresa" class="text-sm font-medium text-[#304269] mb-2 pl-2">Empresa o startup</label>
@@ -399,6 +412,13 @@
             easing: 'ease-out-cubic',
         });
 
+        // Mobile Menu Toggle
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+        
         // Header sizing logic
         window.addEventListener('scroll', () => {
             const nav = document.getElementById('navbar');
