@@ -321,6 +321,9 @@
   .aspect-\[16\/10\] {
     aspect-ratio: 16/10;
   }
+  .h-8 {
+    height: calc(var(--spacing) * 8);
+  }
   .h-10 {
     height: calc(var(--spacing) * 10);
   }
@@ -515,6 +518,9 @@
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 2px;
   }
+  .border-\[\#F26101\] {
+    border-color: #F26101;
+  }
   .border-black {
     border-color: var(--color-black);
   }
@@ -529,6 +535,9 @@
   }
   .border-gray-200 {
     border-color: var(--color-gray-200);
+  }
+  .border-white {
+    border-color: var(--color-white);
   }
   .border-white\/5 {
     border-color: color-mix(in srgb, #fff 5%, transparent);
@@ -569,11 +578,20 @@
   .bg-\[\#111\] {
     background-color: #111;
   }
+  .bg-\[\#304269\] {
+    background-color: #304269;
+  }
+  .bg-\[\#D9E8F5\] {
+    background-color: #D9E8F5;
+  }
   .bg-\[\#F9F9F8\] {
     background-color: #F9F9F8;
   }
   .bg-\[\#F9F9F8\]\/95 {
     background-color: color-mix(in oklab, #F9F9F8 95%, transparent);
+  }
+  .bg-\[\#F26101\] {
+    background-color: #F26101;
   }
   .bg-\[\#FFFF00\] {
     background-color: #FFFF00;
@@ -806,6 +824,12 @@
   .text-\[\#111\] {
     color: #111;
   }
+  .text-\[\#304269\] {
+    color: #304269;
+  }
+  .text-\[\#F26101\] {
+    color: #F26101;
+  }
   .text-\[\#FFFF00\] {
     color: #FFFF00;
   }
@@ -978,14 +1002,17 @@
     .group-hover\:rotate-0:is(:where(.group):hover *) {
       rotate: 0deg;
     }
+    .group-hover\:bg-\[\#F26101\]:is(:where(.group):hover *) {
+      background-color: #F26101;
+    }
     .group-hover\:bg-yellow-500:is(:where(.group):hover *) {
       background-color: var(--color-yellow-500);
     }
-    .group-hover\:text-\[\#111\]:is(:where(.group):hover *) {
-      color: #111;
+    .group-hover\:text-\[\#304269\]:is(:where(.group):hover *) {
+      color: #304269;
     }
-    .group-hover\:text-\[\#FFFF00\]:is(:where(.group):hover *) {
-      color: #FFFF00;
+    .group-hover\:text-\[\#F26101\]:is(:where(.group):hover *) {
+      color: #F26101;
     }
     .group-hover\:text-yellow-500:is(:where(.group):hover *) {
       color: var(--color-yellow-500);
@@ -1015,8 +1042,8 @@
     font-size: var(--text-xs);
     line-height: var(--tw-leading, var(--text-xs--line-height));
   }
-  .peer-focus\:text-yellow-500:is(:where(.peer):focus ~ *) {
-    color: var(--color-yellow-500);
+  .peer-focus\:text-\[\#F26101\]:is(:where(.peer):focus ~ *) {
+    color: #F26101;
   }
   .selection\:bg-\[\#FFFF00\] ::selection {
     background-color: #FFFF00;
@@ -1036,11 +1063,11 @@
   .selection\:bg-yellow-500::selection {
     background-color: var(--color-yellow-500);
   }
-  .selection\:text-black ::selection {
-    color: var(--color-black);
+  .selection\:text-\[\#304269\] ::selection {
+    color: #304269;
   }
-  .selection\:text-black::selection {
-    color: var(--color-black);
+  .selection\:text-\[\#304269\]::selection {
+    color: #304269;
   }
   @media (hover: hover) {
     .hover\:border-blue-500:hover {
@@ -1048,6 +1075,9 @@
     }
     .hover\:border-yellow-500:hover {
       border-color: var(--color-yellow-500);
+    }
+    .hover\:bg-\[\#F26101\]:hover {
+      background-color: #F26101;
     }
     .hover\:bg-black:hover {
       background-color: var(--color-black);
@@ -1058,11 +1088,17 @@
     .hover\:bg-blue-600:hover {
       background-color: var(--color-blue-600);
     }
+    .hover\:bg-white:hover {
+      background-color: var(--color-white);
+    }
     .hover\:bg-yellow-500:hover {
       background-color: var(--color-yellow-500);
     }
-    .hover\:text-\[\#111\]:hover {
-      color: #111;
+    .hover\:text-\[\#304269\]:hover {
+      color: #304269;
+    }
+    .hover\:text-\[\#F26101\]:hover {
+      color: #F26101;
     }
     .hover\:text-\[\#FFFF00\]:hover {
       color: #FFFF00;
@@ -1095,8 +1131,8 @@
       filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
     }
   }
-  .focus\:border-yellow-500:focus {
-    border-color: var(--color-yellow-500);
+  .focus\:border-\[\#F26101\]:focus {
+    border-color: #F26101;
   }
   .focus\:outline-none:focus {
     --tw-outline-style: none;

@@ -36,25 +36,25 @@
         html:not(.no-js) [data-aos="img-reveal"].aos-animate { clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
 
         /* Minimal accents */
-        .yellow-dot { display: inline-block; width: 6px; height: 6px; background-color: var(--brand-yellow); border-radius: 50%; margin-left: 2px; }
+        .brand-dot { display: inline-block; width: 6px; height: 6px; background-color: var(--brand-yellow); border-radius: 50%; margin-left: 2px; }
         .hover-line { position: relative; overflow: hidden; color: inherit; }
         .hover-line::after { content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 1px; background-color: currentColor; transform: translateX(-101%); transition: transform 0.5s cubic-bezier(0.77, 0, 0.175, 1); }
         .hover-line:hover::after { transform: translateX(0); }
     </style>
 </head>
-<body class="antialiased selection:bg-[#FFFF00] selection:text-black overflow-x-hidden">
+<body class="antialiased selection:bg-[#FFFF00] selection:text-[#304269] overflow-x-hidden">
 
     <!-- Header / Navigation (Brand Yellow) -->
-    <header class="fixed w-full z-50 transition-all duration-500 py-4 bg-[#FFFF00] text-black shadow-sm" id="navbar">
+    <header class="fixed w-full z-50 transition-all duration-500 py-4 bg-[#304269] text-white shadow-sm" id="navbar">
         <div class="max-w-[90%] mx-auto flex justify-between items-center">
             <div class="flex-shrink-0 flex items-center">
-                <img src="img/mouselab.png" alt="MouseLab.dev" class="h-8 object-contain filter brightness-0 opacity-90">
+                <img src="img/mouselab.png" alt="MouseLab.dev" class="h-8 object-contain filter brightness-0 invert opacity-90">
             </div>
             <nav class="hidden md:flex space-x-12 items-center">
                 <a href="#estudio" class="text-xs uppercase tracking-[0.15em] hover-line pb-1 font-medium">Estudio</a>
                 <a href="#Productos" class="text-xs uppercase tracking-[0.15em] hover-line pb-1 font-medium">Productos</a>
                 <a href="#infraestructura" class="text-xs uppercase tracking-[0.15em] hover-line pb-1 font-medium">Infraestructura</a>
-                <a href="#contacto" class="text-xs uppercase tracking-[0.15em] font-bold border border-black px-6 py-2 hover:bg-black hover:text-[#FFFF00] transition-colors duration-500">Contacto</a>
+                <a href="#contacto" class="text-xs uppercase tracking-[0.15em] font-bold border border-white px-6 py-2 hover:bg-white hover:text-[#304269] hover:text-[#F26101] transition-colors duration-500">Contacto</a>
             </nav>
         </div>
     </header>
@@ -71,20 +71,20 @@
             <div class="lg:col-span-5 lg:col-start-1">
                 <div class="bg-gradient-to-br from-white/80 to-white/40 backdrop-blur-lg border border-white/50 p-10 md:p-16 rounded-[2.5rem] shadow-[0_20px_60px_-15px_rgba(0,0,0,0.3)] w-full" data-aos="fade-right" data-aos-duration="1200">
                     <div class="flex items-center gap-4 mb-8">
-                        <div class="h-px w-12 bg-yellow-500"></div>
-                        <span class="text-[9px] uppercase tracking-[0.3em] font-bold text-[#111]">Arquitectura de Soluciones & IA</span>
+                        <div class="h-px w-12 bg-[#F26101]"></div>
+                        <span class="text-[9px] uppercase tracking-[0.3em] font-bold text-[#304269]">Arquitectura de Soluciones & IA</span>
                     </div>
-                    <h1 class="text-6xl md:text-8xl font-light text-[#111] leading-[0.9] tracking-tighter mb-8">
+                    <h1 class="text-6xl md:text-8xl font-light text-[#304269] leading-[0.9] tracking-tighter mb-8">
                         Software<br>
                         <span class="font-black">Engineering</span> <span class="font-light italic">&</span><br>
-                        <span class="font-black">AI Solutions<span class="text-yellow-500">.</span></span>
+                        <span class="font-black">AI Solutions<span class="text-[#F26101]">.</span></span>
                     </h1>
                     <p class="text-lg text-gray-800 font-medium leading-relaxed mb-12">
                         Creamos productos digitales de alto impacto impulsados por Inteligencia Artificial. Expertos en arquitectura de soluciones tecnológicas escalables.
                     </p>
                     <a href="#estudio" class="group flex items-center gap-6 w-fit">
-                        <span class="text-[10px] font-bold uppercase tracking-widest text-[#111] group-hover:text-yellow-500 transition-colors">Explorar el trabajo</span>
-                        <div class="w-12 h-px bg-[#111] group-hover:w-24 group-hover:bg-yellow-500 transition-all duration-500"></div>
+                        <span class="text-[10px] font-bold uppercase tracking-widest text-[#304269] group-hover:text-[#F26101] transition-colors">Explorar el trabajo</span>
+                        <div class="w-12 h-px bg-[#111] group-hover:w-24 group-hover:bg-[#F26101] transition-all duration-500"></div>
                     </a>
                 </div>
             </div></section>
@@ -96,7 +96,7 @@
                 
                 <!-- Left Column: Text & New Supporting Image -->
                 <div class="lg:col-span-5 flex flex-col justify-center lg:pl-16 xl:pl-24" data-aos="fade-right">
-                    <h2 class="text-5xl md:text-6xl font-light tracking-tight text-[#111] mb-6 leading-[1.1]">Arquitectura de <br><span class="font-black tracking-tighter">Soluciones</span><span class="yellow-dot"></span></h2>
+                    <h2 class="text-5xl md:text-6xl font-light tracking-tight text-[#304269] mb-6 leading-[1.1]">Arquitectura de <br><span class="font-black tracking-tighter">Soluciones</span><span class="brand-dot"></span></h2>
                     <p class="text-lg text-gray-500 font-light leading-relaxed max-w-md">No solo escribimos código, construimos los cimientos de tu negocio. Integramos Inteligencia Artificial y arquitecturas robustas para garantizar que cada producto sea escalable, rápido y esté listo para facturar desde el día uno.</p>
                     
                     <!-- Supporting Image -->
@@ -107,16 +107,16 @@
                 
                 <!-- Right Column: Features -->
                 <div class="lg:col-span-6 lg:col-start-7" data-aos="fade-up" data-aos-delay="200">
-                    <div class="flex flex-col gap-12 bg-[#F9F9F8] p-12 md:p-16 rounded-[2.5rem] border border-gray-100 shadow-[0_10px_40px_-15px_rgba(0,0,0,0.03)]">
+                    <div class="flex flex-col gap-12 bg-[#D9E8F5] p-12 md:p-16 rounded-[2.5rem] border border-gray-100 shadow-[0_10px_40px_-15px_rgba(0,0,0,0.03)]">
                         <div>
-                            <span class="text-xs font-bold uppercase tracking-widest text-yellow-500 mb-4 block">Garantía</span>
-                            <h4 class="text-3xl md:text-4xl font-black tracking-tighter mb-4 text-[#111]">Calidad Certificada 3M™</h4>
+                            <span class="text-xs font-bold uppercase tracking-widest text-[#F26101] mb-4 block">Garantía</span>
+                            <h4 class="text-3xl md:text-4xl font-black tracking-tighter mb-4 text-[#304269]">Calidad Certificada 3M™</h4>
                             <p class="text-base text-gray-500 font-light leading-relaxed">Ejecución bajo los más estrictos estándares técnicos, utilizando materiales originales para resultados perdurables.</p>
                         </div>
                         <div class="w-full h-px bg-gray-200"></div>
                         <div>
-                            <span class="text-xs font-bold uppercase tracking-widest text-yellow-500 mb-4 block">Alcance</span>
-                            <h4 class="text-3xl md:text-4xl font-black tracking-tighter mb-4 text-[#111]">Hubs Operativos</h4>
+                            <span class="text-xs font-bold uppercase tracking-widest text-[#F26101] mb-4 block">Alcance</span>
+                            <h4 class="text-3xl md:text-4xl font-black tracking-tighter mb-4 text-[#304269]">Hubs Operativos</h4>
                             <p class="text-base text-gray-500 font-light leading-relaxed">Centros estratégicos en Medellín y Cali que optimizan tiempos de respuesta y garantizan cobertura nacional.</p>
                         </div>
                     </div>
@@ -126,14 +126,14 @@
     </section>
 
     <!-- 3. Divisions (Minimalist Cards) -->
-    <section id="Productos" class="py-32 bg-[#F9F9F8]">
+    <section id="Productos" class="py-32 bg-[#D9E8F5]">
         <div class="max-w-[90%] mx-auto">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 lg:pl-16 xl:pl-24 items-start">
                 
                 <!-- Columna Izquierda -->
                 <div class="flex flex-col gap-12 md:gap-16">
                     <div data-aos="fade-right" class="mb-4">
-                        <h2 class="text-5xl md:text-6xl font-black tracking-tighter text-[#111] mb-6">Productos<span class="yellow-dot"></span></h2>
+                        <h2 class="text-5xl md:text-6xl font-black tracking-tighter text-[#304269] mb-6">Productos<span class="brand-dot"></span></h2>
                         <p class="text-lg text-gray-500 font-light leading-relaxed max-w-sm">Plataformas propietarias y soluciones SaaS desarrolladas desde cero con IA, pensadas para dominar sus respectivos nichos.</p>
                     </div>
                     <!-- Card 1 -->
@@ -143,11 +143,11 @@
                     </div>
                     <div class="flex justify-between items-start pt-6">
                         <div>
-                            <span class="text-xs font-bold uppercase tracking-widest text-gray-400 mb-6 block group-hover:text-yellow-500 transition-colors">SaaS & Analytics</span>
-                            <h3 class="text-3xl md:text-4xl font-light text-[#111] tracking-tight mb-6">bemap<span class="font-black tracking-tighter">.pro</span></h3>
+                            <span class="text-xs font-bold uppercase tracking-widest text-gray-400 mb-6 block group-hover:text-[#F26101] transition-colors">SaaS & Analytics</span>
+                            <h3 class="text-3xl md:text-4xl font-light text-[#304269] tracking-tight mb-6">bemap<span class="font-black tracking-tighter">.pro</span></h3>
                         </div>
-                        <div class="w-12 h-12 rounded-full bg-gray-50 flex items-center justify-center group-hover:bg-yellow-500 transition-colors duration-500 flex-shrink-0 mt-8">
-                            <i class="fas fa-arrow-right text-gray-400 transform -rotate-45 group-hover:rotate-0 group-hover:text-[#111] transition-all duration-500"></i>
+                        <div class="w-12 h-12 rounded-full bg-[#D9E8F5] flex items-center justify-center group-hover:bg-[#F26101] transition-colors duration-500 flex-shrink-0 mt-8">
+                            <i class="fas fa-arrow-right text-gray-400 transform -rotate-45 group-hover:rotate-0 group-hover:text-[#304269] transition-all duration-500"></i>
                         </div>
                     </div>
                     <p class="text-base text-gray-500 font-light mt-4 max-w-sm">Nuestra plataforma estrella en facturación. Solución integral potenciada por IA para maximizar el rendimiento y la eficiencia.</p>
@@ -161,11 +161,11 @@
                     </div>
                     <div class="flex justify-between items-start pt-6">
                         <div>
-                            <span class="text-xs font-bold uppercase tracking-widest text-gray-400 mb-6 block group-hover:text-yellow-500 transition-colors">Coffee Tech</span>
-                            <h3 class="text-3xl md:text-4xl font-light text-[#111] tracking-tight mb-6">AxisONE <br><span class="font-black tracking-tighter">Coffee</span></h3>
+                            <span class="text-xs font-bold uppercase tracking-widest text-gray-400 mb-6 block group-hover:text-[#F26101] transition-colors">Coffee Tech</span>
+                            <h3 class="text-3xl md:text-4xl font-light text-[#304269] tracking-tight mb-6">AxisONE <br><span class="font-black tracking-tighter">Coffee</span></h3>
                         </div>
-                        <div class="w-12 h-12 rounded-full bg-gray-50 flex items-center justify-center group-hover:bg-yellow-500 transition-colors duration-500 flex-shrink-0 mt-8">
-                            <i class="fas fa-arrow-right text-gray-400 transform -rotate-45 group-hover:rotate-0 group-hover:text-[#111] transition-all duration-500"></i>
+                        <div class="w-12 h-12 rounded-full bg-[#D9E8F5] flex items-center justify-center group-hover:bg-[#F26101] transition-colors duration-500 flex-shrink-0 mt-8">
+                            <i class="fas fa-arrow-right text-gray-400 transform -rotate-45 group-hover:rotate-0 group-hover:text-[#304269] transition-all duration-500"></i>
                         </div>
                     </div>
                     <p class="text-base text-gray-500 font-light mt-4 max-w-sm">Plataforma tecnológica avanzada para la gestión, trazabilidad y optimización de la industria cafetera.</p>
@@ -183,11 +183,11 @@
                     </div>
                     <div class="flex justify-between items-start pt-6">
                         <div>
-                            <span class="text-xs font-bold uppercase tracking-widest text-gray-400 mb-6 block group-hover:text-yellow-500 transition-colors">E-Commerce & B2B</span>
-                            <h3 class="text-3xl md:text-4xl font-light text-[#111] tracking-tight mb-6">Becoffee<span class="font-black tracking-tighter">.pro</span></h3>
+                            <span class="text-xs font-bold uppercase tracking-widest text-gray-400 mb-6 block group-hover:text-[#F26101] transition-colors">E-Commerce & B2B</span>
+                            <h3 class="text-3xl md:text-4xl font-light text-[#304269] tracking-tight mb-6">Becoffee<span class="font-black tracking-tighter">.pro</span></h3>
                         </div>
-                        <div class="w-12 h-12 rounded-full bg-gray-50 flex items-center justify-center group-hover:bg-yellow-500 transition-colors duration-500 flex-shrink-0 mt-8">
-                            <i class="fas fa-arrow-right text-gray-400 transform -rotate-45 group-hover:rotate-0 group-hover:text-[#111] transition-all duration-500"></i>
+                        <div class="w-12 h-12 rounded-full bg-[#D9E8F5] flex items-center justify-center group-hover:bg-[#F26101] transition-colors duration-500 flex-shrink-0 mt-8">
+                            <i class="fas fa-arrow-right text-gray-400 transform -rotate-45 group-hover:rotate-0 group-hover:text-[#304269] transition-all duration-500"></i>
                         </div>
                     </div>
                     <p class="text-base text-gray-500 font-light mt-4 max-w-sm">El ecosistema digital diseñado para conectar productores, tostadores y amantes del café a nivel global.</p>
@@ -201,11 +201,11 @@
                     </div>
                     <div class="flex justify-between items-start pt-6">
                         <div>
-                            <span class="text-xs font-bold uppercase tracking-widest text-gray-400 mb-6 block group-hover:text-yellow-500 transition-colors">Software Factory</span>
-                            <h3 class="text-3xl md:text-4xl font-light text-[#111] tracking-tight mb-6">Custom <br><span class="font-black tracking-tighter">Web Dev</span></h3>
+                            <span class="text-xs font-bold uppercase tracking-widest text-gray-400 mb-6 block group-hover:text-[#F26101] transition-colors">Software Factory</span>
+                            <h3 class="text-3xl md:text-4xl font-light text-[#304269] tracking-tight mb-6">Custom <br><span class="font-black tracking-tighter">Web Dev</span></h3>
                         </div>
-                        <div class="w-12 h-12 rounded-full bg-gray-50 flex items-center justify-center group-hover:bg-yellow-500 transition-colors duration-500 flex-shrink-0 mt-8">
-                            <i class="fas fa-arrow-right text-gray-400 transform -rotate-45 group-hover:rotate-0 group-hover:text-[#111] transition-all duration-500"></i>
+                        <div class="w-12 h-12 rounded-full bg-[#D9E8F5] flex items-center justify-center group-hover:bg-[#F26101] transition-colors duration-500 flex-shrink-0 mt-8">
+                            <i class="fas fa-arrow-right text-gray-400 transform -rotate-45 group-hover:rotate-0 group-hover:text-[#304269] transition-all duration-500"></i>
                         </div>
                     </div>
                     <p class="text-base text-gray-500 font-light mt-4 max-w-sm">Desarrollo de sitios web corporativos y plataformas a la medida con arquitecturas modernas (Next.js, React, Tailwind).</p>
@@ -223,7 +223,7 @@
             <p class="text-[10px] uppercase tracking-[0.3em] text-gray-400 text-center mb-10 font-bold">Marcas que respaldan nuestra ingeniería visual</p>
             <div class="flex flex-wrap justify-center items-center gap-12 md:gap-24 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
                 <!-- Client 1 -->
-                <h4 class="text-2xl font-black tracking-tighter text-[#111]">Banco de Bogotá</h4>
+                <h4 class="text-2xl font-black tracking-tighter text-[#304269]">Banco de Bogotá</h4>
                 <!-- Client 2 -->
                 <h4 class="text-3xl font-black text-red-600 tracking-widest">OXXO</h4>
                 <!-- Client 3 -->
@@ -237,23 +237,23 @@
     <!-- 4. Infrastructure List (Editorial Typographic) -->
     <section id="infraestructura" class="py-32 bg-[#111] text-white">
         <div class="max-w-[90%] mx-auto">
-            <h2 class="text-sm md:text-base font-bold uppercase tracking-[0.3em] text-[#FFFF00] mb-20 text-center">Infraestructura Interna</h2>
+            <h2 class="text-sm md:text-base font-bold uppercase tracking-[0.3em] text-[#F26101] mb-20 text-center">Infraestructura Interna</h2>
             
             <div class="max-w-5xl mx-auto divide-y divide-white/10">
                 <div class="py-12 group cursor-pointer flex flex-col md:flex-row justify-between items-start md:items-center" data-aos="fade-up">
-                    <h3 class="text-3xl md:text-5xl font-light tracking-tight text-white group-hover:text-[#FFFF00] transition-colors duration-500">01. <span class="font-black tracking-tighter">Metalmecánica</span> Aplicada</h3>
+                    <h3 class="text-3xl md:text-5xl font-light tracking-tight text-white group-hover:text-[#F26101] transition-colors duration-500">01. <span class="font-black tracking-tighter">Metalmecánica</span> Aplicada</h3>
                     <p class="text-base md:text-lg text-gray-400 font-light max-w-sm mt-6 md:mt-0 text-left md:text-right opacity-0 group-hover:opacity-100 transition-opacity duration-500 leading-relaxed">Corte estructural, soldadura y ensamblaje para mobiliario y avisos elevados.</p>
                 </div>
                 <div class="py-12 group cursor-pointer flex flex-col md:flex-row justify-between items-start md:items-center" data-aos="fade-up">
-                    <h3 class="text-3xl md:text-5xl font-light tracking-tight text-white group-hover:text-[#FFFF00] transition-colors duration-500">02. Cama Plana UV <span class="font-black tracking-tighter">& CNC</span></h3>
+                    <h3 class="text-3xl md:text-5xl font-light tracking-tight text-white group-hover:text-[#F26101] transition-colors duration-500">02. Cama Plana UV <span class="font-black tracking-tighter">& CNC</span></h3>
                     <p class="text-base md:text-lg text-gray-400 font-light max-w-sm mt-6 md:mt-0 text-left md:text-right opacity-0 group-hover:opacity-100 transition-opacity duration-500 leading-relaxed">Precisión milimétrica sobre maderas, acrílicos, alucobond y sustratos rígidos.</p>
                 </div>
                 <div class="py-12 group cursor-pointer flex flex-col md:flex-row justify-between items-start md:items-center" data-aos="fade-up">
-                    <h3 class="text-3xl md:text-5xl font-light tracking-tight text-white group-hover:text-[#FFFF00] transition-colors duration-500">03. Artes Gráficas <span class="font-black tracking-tighter">Offset</span></h3>
+                    <h3 class="text-3xl md:text-5xl font-light tracking-tight text-white group-hover:text-[#F26101] transition-colors duration-500">03. Artes Gráficas <span class="font-black tracking-tighter">Offset</span></h3>
                     <p class="text-base md:text-lg text-gray-400 font-light max-w-sm mt-6 md:mt-0 text-left md:text-right opacity-0 group-hover:opacity-100 transition-opacity duration-500 leading-relaxed">Impresión masiva y gran formato con fidelidad de color corporativa absoluta.</p>
                 </div>
                 <div class="py-12 group cursor-pointer flex flex-col md:flex-row justify-between items-start md:items-center" data-aos="fade-up">
-                    <h3 class="text-3xl md:text-5xl font-light tracking-tight text-white group-hover:text-[#FFFF00] transition-colors duration-500">04. Instalación <span class="font-black tracking-tighter">Certificada</span></h3>
+                    <h3 class="text-3xl md:text-5xl font-light tracking-tight text-white group-hover:text-[#F26101] transition-colors duration-500">04. Instalación <span class="font-black tracking-tighter">Certificada</span></h3>
                     <p class="text-base md:text-lg text-gray-400 font-light max-w-sm mt-6 md:mt-0 text-left md:text-right opacity-0 group-hover:opacity-100 transition-opacity duration-500 leading-relaxed">Personal técnico certificado en alturas para despliegues seguros a nivel nacional.</p>
                 </div>
             </div>
@@ -269,24 +269,24 @@
                 <div data-aos="fade-right">
                     <div class="mb-12">
                         <span class="text-[9px] uppercase tracking-[0.3em] font-bold text-gray-400 block mb-4">Contacto</span>
-                        <h2 class="text-4xl md:text-5xl md:text-6xl font-light tracking-tight text-[#111]">Iniciar <br><span class="font-black tracking-tighter">Proyecto</span><span class="text-yellow-500">.</span></h2>
+                        <h2 class="text-4xl md:text-5xl md:text-6xl font-light tracking-tight text-[#304269]">Iniciar <br><span class="font-black tracking-tighter">Proyecto</span><span class="text-[#F26101]">.</span></h2>
                         <p class="text-gray-500 font-light text-base md:text-lg mt-6">Contáctenos para licitaciones corporativas y evaluación de ingeniería visual.</p>
                     </div>
                     
-                    <form action="#" method="POST" class="space-y-12 bg-[#F9F9F8] p-12 md:p-20 rounded-[3rem] shadow-[0_10px_40px_-15px_rgba(0,0,0,0.03)] border border-gray-100" data-aos="fade-up" data-aos-delay="200">
+                    <form action="#" method="POST" class="space-y-12 bg-[#D9E8F5] p-12 md:p-20 rounded-[3rem] shadow-[0_10px_40px_-15px_rgba(0,0,0,0.03)] border border-gray-100" data-aos="fade-up" data-aos-delay="200">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-16">
                     <div class="relative">
-                        <input type="text" id="empresa" class="w-full bg-transparent border-b-2 border-gray-200 py-4 text-base text-[#111] focus:outline-none focus:border-yellow-500 transition-colors peer placeholder-transparent" placeholder="Empresa" required>
-                        <label for="empresa" class="absolute left-0 -top-4 text-xs font-bold uppercase tracking-widest text-gray-400 transition-all peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-placeholder-shown:top-4 peer-focus:-top-4 peer-focus:text-xs peer-focus:text-yellow-500">Razón Social</label>
+                        <input type="text" id="empresa" class="w-full bg-transparent border-b-2 border-gray-200 py-4 text-base text-[#304269] focus:outline-none focus:border-[#F26101] transition-colors peer placeholder-transparent" placeholder="Empresa" required>
+                        <label for="empresa" class="absolute left-0 -top-4 text-xs font-bold uppercase tracking-widest text-gray-400 transition-all peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-placeholder-shown:top-4 peer-focus:-top-4 peer-focus:text-xs peer-focus:text-[#F26101]">Razón Social</label>
                     </div>
                     <div class="relative">
-                        <input type="email" id="email" class="w-full bg-transparent border-b-2 border-gray-200 py-4 text-base text-[#111] focus:outline-none focus:border-yellow-500 transition-colors peer placeholder-transparent" placeholder="Email" required>
-                        <label for="email" class="absolute left-0 -top-4 text-xs font-bold uppercase tracking-widest text-gray-400 transition-all peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-placeholder-shown:top-4 peer-focus:-top-4 peer-focus:text-xs peer-focus:text-yellow-500">Correo Corporativo</label>
+                        <input type="email" id="email" class="w-full bg-transparent border-b-2 border-gray-200 py-4 text-base text-[#304269] focus:outline-none focus:border-[#F26101] transition-colors peer placeholder-transparent" placeholder="Email" required>
+                        <label for="email" class="absolute left-0 -top-4 text-xs font-bold uppercase tracking-widest text-gray-400 transition-all peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-placeholder-shown:top-4 peer-focus:-top-4 peer-focus:text-xs peer-focus:text-[#F26101]">Correo Corporativo</label>
                     </div>
                 </div>
 
                 <div class="relative mt-8">
-                    <select id="tipo" class="w-full bg-transparent border-b-2 border-gray-200 py-4 text-base text-gray-600 focus:outline-none focus:border-yellow-500 transition-colors appearance-none cursor-pointer">
+                    <select id="tipo" class="w-full bg-transparent border-b-2 border-gray-200 py-4 text-base text-gray-600 focus:outline-none focus:border-[#F26101] transition-colors appearance-none cursor-pointer">
                         <option value="" disabled selected>Área de requerimiento...</option>
                         <option value="adecuacion">Adecuación Arquitectónica (Bancos / Oficinas)</option>
                         <option value="retail">Despliegue Retail / Fachadas</option>
@@ -295,7 +295,7 @@
                     <i class="fas fa-chevron-down absolute right-0 top-6 text-xs text-gray-400 pointer-events-none"></i>
                 </div>
                 <div class="pt-12 text-center">
-                    <button type="submit" class="bg-[#111] text-white text-xs font-bold uppercase tracking-[0.2em] px-16 py-6 rounded-full hover:bg-yellow-500 hover:text-[#111] transition-colors duration-500 shadow-xl hover:shadow-2xl">
+                    <button type="submit" class="bg-[#111] text-white text-xs font-bold uppercase tracking-[0.2em] px-16 py-6 rounded-full hover:bg-[#F26101] hover:text-[#304269] transition-colors duration-500 shadow-xl hover:shadow-2xl">
                         Enviar Solicitud
                     </button>
                 </div>
@@ -320,7 +320,7 @@
     </section>
 
     <!-- 6. Footer (Premium Corporate) -->
-    <footer class="bg-[#1A1A1A] text-white pt-24 pb-12 border-t border-white/5">
+    <footer class="bg-[#304269] text-white pt-24 pb-12 border-t border-white/5">
         <div class="max-w-[90%] mx-auto">
             <div class="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-8 mb-20">
                 <!-- Branding -->
@@ -333,7 +333,7 @@
 
                 <!-- Hubs Operativos -->
                 <div class="md:col-span-3">
-                    <h5 class="text-[#FFFF00] text-xs font-black uppercase tracking-[0.2em] mb-6">Hubs Operativos</h5>
+                    <h5 class="text-[#F26101] text-xs font-black uppercase tracking-[0.2em] mb-6">Hubs Operativos</h5>
                     <ul class="space-y-4 text-gray-400 font-light text-sm">
                         <li><span class="text-white font-medium">Sede Principal:</span> Pereira, Risaralda</li>
                         <li><span class="text-white font-medium">Planta Medellín:</span> Cobertura Antioquia</li>
@@ -343,7 +343,7 @@
 
                 <!-- Enlaces -->
                 <div class="md:col-span-2">
-                    <h5 class="text-[#FFFF00] text-xs font-black uppercase tracking-[0.2em] mb-6">Navegación</h5>
+                    <h5 class="text-[#F26101] text-xs font-black uppercase tracking-[0.2em] mb-6">Navegación</h5>
                     <ul class="space-y-4 text-gray-400 font-light text-sm flex flex-col">
                         <a href="#estudio" class="hover:text-white transition-colors w-fit">El Estudio</a>
                         <a href="#Productos" class="hover:text-white transition-colors w-fit">Productos</a>
@@ -353,7 +353,7 @@
 
                 <!-- Certificaciones -->
                 <div class="md:col-span-3">
-                    <h5 class="text-[#FFFF00] text-xs font-black uppercase tracking-[0.2em] mb-6">Garantía</h5>
+                    <h5 class="text-[#F26101] text-xs font-black uppercase tracking-[0.2em] mb-6">Garantía</h5>
                     <div class="bg-white/5 p-6 rounded-2xl border border-white/10">
                         <h6 class="text-white font-black tracking-tight mb-2">Partner Certificado 3M™</h6>
                         <p class="text-xs text-gray-400 font-light">
